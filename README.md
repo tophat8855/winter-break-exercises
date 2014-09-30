@@ -1,5 +1,4 @@
 # Ruby Exercise Template
-----------
 
 This is a blank project you can use to craft your own Ruby projects for exercises
 and assessments.
