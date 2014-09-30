@@ -16,8 +16,14 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 
-Dir.chdir(File.dirname(__FILE__) + "/../lib") do
-  Dir.glob("*.rb").each {|f| require f }
+dir = File.dirname(__FILE__) + "/../lib/"
+Dir.chdir(dir) do
+  Dir.glob("*.rb").each {|f| require dir + f }
+end
+
+dir = File.dirname(__FILE__) + "/support/"
+Dir.chdir(dir) do
+  Dir.glob("*.rb").each {|f| require dir + f }
 end
 
 RSpec.configure do |config|
