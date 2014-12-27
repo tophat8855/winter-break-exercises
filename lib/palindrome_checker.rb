@@ -3,7 +3,7 @@ class PalindromeChecker
     @string = string
   end
 
-  def reverse
+  def switchy
     outer_index = 0
     while outer_index < (@string.size - 1)
       inner_index = 0
@@ -19,4 +19,5 @@ end
 
 puts "Enter a string"
 string = gets.chomp
-puts string.reverse
+switch_this = PalindromeChecker.new(string)
+puts switch_this.switchy
