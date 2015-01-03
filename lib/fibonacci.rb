@@ -1,4 +1,4 @@
-fibonacci_array = []
+fibonacci_array = [0, 1]
 
 first = 0
 second = 1
