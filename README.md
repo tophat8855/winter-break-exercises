@@ -1,25 +1,45 @@
-# Ruby Exercise Template
+# Winter Break Exercises
 
-This is a blank project you can use to craft your own Ruby projects for exercises
-and assessments.
+These were exercises assigned for gSchool SF winter break.
 
-#### Gems
+## Temperature Convertor
 
-It only comes with the 'rspec' gem for testing. It also comes with files that
-set the ruby version and the gemset. Once you pull down this project once, and
-bundle gems, you shouldn't have to do it again. Your computer should just know
-which Ruby and gemset to use.
+Create a simple temperature convertor.
 
-## Getting Started
+## Odd Numbers
 
-1. `bundle` to get your gems
-2. Write tests:
-    * Create new files in your spec directory. If they end with '\_spec.rb', rspec
-    will run them
-    * Write 'require "spec_helper"' on the top of your file
-    * Start writing specs for your code
-    * If you need to add helper functions, or fixture data, there is a support
-    directory. Any file that you include will be required.
-3. Write code: The lib directory is hanging out just waiting for you to write some
-code and put it there. Files in that directory will be automatically required in your
-tests.
+Write code to print all the odd numbers between 1 and 1337
+
+## Guessing Game
+
+Create a program that picks a random number between 1 and 100 and then asks the user to guess the number. Once the user guesses a number, the program should say, higher, lower, or tell the user that they got the number correct. The user should continue to make guesses until he guesses correctly. Also, once the user guesses correctly, the program should print the number of guesses needed to arrive at the correct answer.
+
+## Simple Ascii Art
+
+Using loops (don't just use a bunch of puts statements!), print out a simple ascii art triangle.
+
+Ask the user for the number of rows and the ascii character that the pyramid should consist of.
+
+## Reverse A String
+
+Reverse a string in place. In other words, do not create a new string or use other methods on the string such as reverse. The goal of the problem is to use a loop and the string accessors to figure out which values to swap for other values.
+
+## Palindrome Checker
+
+Write code that determines if a given string is a palindrome. Do not use the .reverse() String method. You can use the code you wrote for the above problem.
+
+## Prime Numbers
+
+Write a method called prime_printer(max) which takes one integer argument. It should print out all the prime numbers between 0 and the given argument.
+
+## Fibonacci
+
+Write code to print out the first 100 Fibonacci numbers.
+
+## Multiplication Table
+
+Create a 9 x 9 multiplication table. Make sure to pay attention to spacing! Make it look nice! For an extra challenge, allow the user to specify the size of the multiplication table (3 x 10, 5 x 5, etc.)
+
+## Screwing with the Array Class
+
+Write the following methods ON the built in Array class: say_hello, count_evens
