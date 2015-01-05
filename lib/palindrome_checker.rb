@@ -1,17 +1,12 @@
 class PalindromeChecker
   def initialize(string)
     @string = string
+    @length = string.length - 1
   end
 
   def switchy
-    outer_index = 0
-    while outer_index < (@string.size - 1)
-      inner_index = 0
-      while inner_index < (@string.size - outer_index - 1)
-        @string[inner_index], @string[inner_index + 1] = @string[inner_index + 1], @string[inner_index]
-        inner_index += 1
-      end
-      outer_index += 1
+    (@string.length/2).times do |index| 
+      @string[index], @string[-index - 1] = @string[-index - 1], @string[index]
     end
     @string
   end
