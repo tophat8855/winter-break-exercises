@@ -8,6 +8,8 @@ Create a simple temperature convertor.
 
 ## Odd Numbers
 
+#### Does not have a spec file
+
 Write code to print all the odd numbers between 1 and 1337
 
 ## Guessing Game
@@ -15,6 +17,8 @@ Write code to print all the odd numbers between 1 and 1337
 Create a program that picks a random number between 1 and 100 and then asks the user to guess the number. Once the user guesses a number, the program should say, higher, lower, or tell the user that they got the number correct. The user should continue to make guesses until he guesses correctly. Also, once the user guesses correctly, the program should print the number of guesses needed to arrive at the correct answer.
 
 ## Simple Ascii Art
+
+#### Does not have a spec file
 
 Using loops (don't just use a bunch of puts statements!), print out a simple ascii art triangle.
 
@@ -34,9 +38,13 @@ Write a method called prime_printer(max) which takes one integer argument. It sh
 
 ## Fibonacci
 
+#### Does not have a spec file
+
 Write code to print out the first 100 Fibonacci numbers.
 
 ## Multiplication Table
+
+#### Does not have a spec file
 
 Create a 9 x 9 multiplication table. Make sure to pay attention to spacing! Make it look nice! For an extra challenge, allow the user to specify the size of the multiplication table (3 x 10, 5 x 5, etc.)
 
